@@ -1,0 +1,4 @@
+{
+    "version": "0.1.8",
+    "changes": "- Leverage multiprocessing for update checks to prevent UI blocking.\n- Correct some keybind issues."
+}
