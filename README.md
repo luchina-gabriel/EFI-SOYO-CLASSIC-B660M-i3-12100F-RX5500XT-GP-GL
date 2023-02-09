@@ -27,6 +27,21 @@
 ### Don't work
 - Nothing
 
+### Generate your SMBIOS [Important]
+
+1. Open Apps > GenSMBIOS > GenSMBIOS.command
+2. Select Option #3 [Generate SMBIOS]
+3. Fill with iMacPro1,1
+4. Replace Serial Numbers in config.plist of EFI [PlatformInfo > Generic]
+
+|GenSMBIOS App|config.plist|
+|-|:-------:|
+|Type:|SystemProductName|
+|Serial:|SystemSerialNumber|
+|Board Serial:|MLB|
+|SmUUID|SystemUUID|
+|Apple ROM:|ROM|
+
 ## Hackintosh Creator
 - [Gabriel Luchina - Universo Hackintosh](https://luchina.com.br)
 
